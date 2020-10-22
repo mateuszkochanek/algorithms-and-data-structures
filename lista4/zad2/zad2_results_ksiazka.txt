@@ -1,0 +1,3 @@
+Ograniczenia dla drzewa Bst | Dolne: 2 | Średnie: 112 | Górne: 32519
+Ograniczenia dla drzewa Rbt | Dolne: 1 | Średnie: 12 | Górne: 31
+Ograniczenia dla Hash Mapy | Dolne: 1 | Średnie: 1 | Górne: 28
