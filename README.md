@@ -1,5 +1,5 @@
 # Algorytmy-i-struktury-danych
-Rozwiązania zadań z kursu Algorytmy i struktury danych na kierunku informatyka na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej.
+Rozwiązania zadań z kursu Algorytmy i struktury danych na kierunku informatyka na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. W README.md w listach są instrukcje jak uruchomić programy, a także moje notatki z kursu (najczęściej analiza złożoności implementowanych algorytmów).
 
 ### Lista 1
 Polegała na implementacji podstawowych struktur danych.

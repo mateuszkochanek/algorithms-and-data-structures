@@ -1,9 +1,9 @@
-1.Zadanie1
+### Zadanie1
 Ma zrobione 6 algorytmów sortujących, insert, merge, quick, hybrid, dual oraz radix sort. Aby je uruchomić należy wpisać:
-a) g++ zad1.cpp
-b) ./a.out --type ${rodzaj sortowania:(insert;quick;merge;hybrid;dual;radix)} --comp ${comparator:("<=";">=")} --stat ${nazwa_pliku} ${liczba_k}
+1. g++ zad1.cpp
+2. ./a.out --type ${rodzaj sortowania:(insert;quick;merge;hybrid;dual;radix)} --comp ${comparator:("<=";">=")} --stat ${nazwa_pliku} ${liczba_k}
     ./a.out --type radix --comp "<=" --stat Radix_k1000 1000
-c) W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, i podać liczby całkowite do
+3. W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, i podać liczby całkowite do
 posortowania. Jeżeli użyto --stat nie ma potrzeby podawania żadnych danych
 Implementacja radix sorta jest na dole pliku.
 
@@ -14,12 +14,12 @@ dużo mniej uniwersalnym sortowaniem.
 Warto wspomnieć też, że radix sort jako jedyny z zaimplementowanych nie jest sortowaniem w miejscu, a dystrybucyjnym, dlatego używa
 więcej pamięci niż pozostałe.
 ____________________________________________________________________
-2.Zadanie2
+### Zadanie2
 Zaimplementowany algorytm SELECT oraz RANDOMIZED SELECT. Aby je uruchomić należy wpisać:
-a) g++ zad2.cpp
-b) ./a.out ${rodzaj danych:(-r;-p)} (-r oznacza losowe dane, -p oznacza losową permutację {1,2,3...n}
+1. g++ zad2.cpp
+2. ./a.out ${rodzaj danych:(-r;-p)} (-r oznacza losowe dane, -p oznacza losową permutację {1,2,3...n}
     ./a.out -r
-c) W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy i liczbę całkowitą k, czyli ktora liczbę
+3. W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy i liczbę całkowitą k, czyli ktora liczbę
 z kolei chcemy znaleźć. Wybrana liczba będzie oznaczona dwoma nawiasami np. [10].
 
 Kilka przykładowych wywołań programu testującego, liczącego min i max liczbę porównan, a takze srędnią i odchylenie standardowe dla
@@ -35,11 +35,11 @@ Widać że RANDOM_SELECT ma średnio lepsze wyniki niż SELECT. Natomiast pesymi
 kwadratowego a w selecie liniowego. To którego algorytmu powinniśmy użyć zależy więc od informacji jakie mamy o danych.RANDOMIZED
 SELECT jest bardziej uniwersalny.
 ____________________________________________________________________
-3.Zadanie3
+### Zadanie3
 Zaimplementowany algorytm Binary search. Aby go uruchomić należy wpisać:
-a) g++ zad3.cpp
-b) ./a.out
-c) W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, liczbę całkowitą k, czyli ktorą liczbę
+1. g++ zad3.cpp
+2. ./a.out
+3. W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, liczbę całkowitą k, czyli ktorą liczbę
 chcemy znaleźć i niemalejącą tablicę elementów wielkości n.
 Program wypisze czy tą liczbę znaleziono w tabilcy, a nstępnie przeprowadzi testy dla n ∈ {1000, 2000, . . . , 100000} i wypisze
 ich wyniki, dlatego wyniku wyszukania należy szukać na górze programu zaraz pod wywołaniem.
@@ -50,12 +50,12 @@ porownań tak liczonych jest bardzo podobna do log_2 n. Jednak porównań w funk
 liczbę porównań rząd oczywiście się nie zmieni, natomiast stała O(1) to 3 zamiast 1 więc liczba porownań będzie zdecydowanie
 większa niż log_2 n, jednak wciąż tego samego rzędu.
 ____________________________________________________________________
-4.Zadanie4
+### Zadanie4
 Ma zaprogramowane 4 algorytmy sortujących, quick sort, dual quick sort, quick sort z selectem i dual quick sort z selectem.
-a) g++ zad4.cpp
-b) ./a.out --type ${rodzaj sortowania:(quick;dual;quickv2;dualv2)} --comp ${comparator:("<=";">=")} --stat ${nazwa_pliku} ${liczba_k}
+1. g++ zad4.cpp
+2. ./a.out --type ${rodzaj sortowania:(quick;dual;quickv2;dualv2)} --comp ${comparator:("<=";">=")} --stat ${nazwa_pliku} ${liczba_k}
     ./a.out --type dual --comp "<=" --stat Dual_k1000 1000
-c) W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, i podać liczby całkowite do
+3. W trakcie działania programu wpisać liczbę całkowitą n czyli ilość elementów w tablicy, i podać liczby całkowite do
 posortowania. Jeżeli użyto --stat nie ma potrzeby podawania żadnych danych, testy zostaną wpisane do podanego pliku.
 
 Quicksort używa SELECTA do wyznaczenia mediany_median i używa jej jako pivota. Dual Quicksort używa selecta do wyznaczenia median

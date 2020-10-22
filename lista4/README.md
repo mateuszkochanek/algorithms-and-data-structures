@@ -1,13 +1,13 @@
-1.Zadanie1
+### Zadanie1
 Ma zrobione 3 struktury danych opisane w liście 4 razem z operacjami insert, find, min, max, successor, load, delete, inorder 
 działającymi jak sprecyzowane w zadaniu. Aby uruchomić zadanie należy je skompilować (polecam użyć stworzonego przezemnie pliku
 make. (dodałem dodatkową strukturę LinkedList bo jest wykorzystywana prze z hmap). W struktórach zachowujących kolejność,
 stosuję kolejność leksykograficzną C++, czyli znaki [A...Z,a...z]. (plik main w lini 127 ma zakomentowaną instrukcje pprint,
 czyli Pretty print, po odkomentowaniu dla bst i rbt zostanie wyświetlone w konsoli drzewo w łatwy do interpretacji sposób)
 
-a) make
-b) ./main --type ${rodzaj struktury:(bst;rbt;hmap;list)}
-c) W trakcie działania programu wpisać liczbę całkowitą n czyli ilość instrukcji, i po kolei podawać instrukcje.
+1. make
+2. ./main --type ${rodzaj struktury:(bst;rbt;hmap;list)}
+3. W trakcie działania programu wpisać liczbę całkowitą n czyli ilość instrukcji, i po kolei podawać instrukcje.
 
 a) n dla HMAP:
 w pliku results_test1.txt są wszystkie wyniki testu z pliku test1.cpp, ale po przeanalizowaniu ich moment dla n = 32;
@@ -35,7 +35,7 @@ delete: | BST:0.000001 | RBT:0.000001 | HMAP:0.000001
 
 
 ____________________________________________________________________
-2.Zadanie2
+### Zadanie2
 Mam zrobione 3 struktury danych opisane w liście 4 razem z operacjami find i load (inne mogą niedziałać bo zostały dopasowane aby
 zwracać ilość porównań). Aby uruchomić zadanie należy je skompilować (polecam użyć stworzonego przezemnie pliku make.
 (dodałem dodatkową strukturę LinkedList bo jest wykorzystywana prze z hmap).
@@ -44,9 +44,9 @@ W programie jest zmienna fileName, określa z którego pliku wczytujemy dane. Pl
 ma książke Lord Of The Rings.
 Wyniki są zapisywane w pliku "zad2_results.txt".
 
-a) make
-b) ./main
-c) Program może pracować długo bo pliki są dość duże.
+1. make
+2. ./main
+3. Program może pracować długo bo pliki są dość duże.
 
 Wyniki dla słownika które analizowalem są w pliku "zad2_results_slownik.txt" a dla książki "zad2_results_ksiazka.txt", wyniki:
 Slownik, 65197 słów: (brak powtórzeń, konkretna kolejność)
