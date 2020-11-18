@@ -1,40 +1,40 @@
-# Algorytmy-i-struktury-danych
-Rozwiązania zadań z kursu Algorytmy i struktury danych na kierunku informatyka na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. W README.md w listach są instrukcje jak uruchomić programy, a także moje notatki z kursu (najczęściej analiza złożoności implementowanych algorytmów).
+# Algorithms-and-Data-Structures
+Exercises form Algorithms and Data Structures course on the University of Technology in Wrocław. READMEs in folders contain running instruction and my notes (still in polish, waiting to be translated).
 
-### Lista 1
-Polegała na implementacji podstawowych struktur danych.
-- Kolejka FIFO
-- Jednokierunkowa lista
-- Dwukierunkowa lista cykliczna
+### List 1
+I had to implement basic data structures.
+- FIFO Queue
+- One-way list
+- Two-way cyclic list
 
-### Lista 2
-Polegała na implementacji i przetestowaniu kilku algorytmów sortujących
+### List 2
+I implemented and tested five sorting algorithms.
 - InsertSort
 - MergeSort
 - QuickSort
 - DualQuickSort
-- Hybryda insertsort i quickSort
+- Hybrid insertsort i quickSort
 
-### Lista 3
-Polegała na implementacji SELECT i RANDOMIZED_SELECT, binary_search, a także bardziej zaawansowanych algorytmów sortujących.
+### List 3
+I implemented SELECT, RANDOMIZED_SELECT, binary_search and more advanced sorting algorithms.
 - RadixSort
 - Randomized select
 - Select
 - Binary search
-- Ulepszony QuickSort
-- Ulepszony DualQuickSort
+- Enhanced  QuickSort
+- Enhanced  DualQuickSort
 
-### Lista 4
-Polegała na implementacji zaawansowanych struktur danych.
+### List 4
+I implemented advanced data structures.
 - Binary search tree
 - Red-black tree
 - Hashmap
 
-### Lista 5
-Polegała na implementacji kolejki priorytetowej na kopcu binarnym i implementacji algorytmu Dijkstry, a także algorytmów znajdujących minimalne drzewa rozpinające.
+### List 5
+I implemented priority queue on binary heap, Dijikstra algorithm and algorithms used to find minimum spanning trees.
 - Priority queue
 - Binary heap
-- algortym Dijkstry
+- Dijkstra algorithm
 - Minimum spanning tree (MST)
 	- Prim
 	- Kruskal
