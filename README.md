@@ -2,7 +2,7 @@
 Exercises form Algorithms and Data Structures course on the University of Technology in Wrocław. READMEs in folders contain running instruction and my notes (still in polish, waiting to be translated).
 
 ### List 1
-I had to implement basic data structures.
+I implemented basic data structures.
 - FIFO Queue
 - One-way list
 - Two-way cyclic list
